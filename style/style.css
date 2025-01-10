@@ -18,7 +18,7 @@ body {
 }
 
 .container div.six {
-  top: 10vh;
+  top: 25vh;
   z-index: 1;
 }
 
@@ -258,6 +258,10 @@ body {
 }
 
 @media screen and (max-width: 500px) {
+  .container div.six {
+    top: 25vh;
+  }
+
   .container {
     width: 90%;
   }
@@ -281,8 +285,8 @@ body {
 
   .container .six .hat {
     width: 60px;
-    top: -50px;
-    left: 205px !important;
+    top: -60px;
+    left: 198px !important;
   }
 
   .wish-hbd {
